@@ -6,15 +6,15 @@ body {
 }
 
 .box {
-  animation: circle 3s infinite;
-  background: orange;
-  clip-path: circle(75%);
+  animation: diamond 3s infinite;
+  background: blue;
+  clip-path: diamond(75%);
   height: 200px;
   width: 200px;
 }
 
-@keyframes circle {
-  0% { clip-path: circle(75%); }
-  50% { clip-path: circle(25%); }
-  100% { clip-path: circle(75%); }
+@keyframes diamond {
+  0% { clip-path: diamond(75%); }
+  50% { clip-path: diamond(25%); }
+  100% { clip-path: diamond(75%); }
 }
