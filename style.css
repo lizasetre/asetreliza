@@ -6,7 +6,7 @@ body {
 }
 
 .box {
-  animation: diamond 3s infinite;
+  animation: heart 3s infinite;
   background: blue;
   clip-path: circle(75%);
   height: 200px;
